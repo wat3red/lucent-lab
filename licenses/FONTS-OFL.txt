@@ -1,0 +1,29 @@
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+Embedded fonts under client/LucentClient/resources/ include families commonly
+distributed under the SIL Open Font License (e.g. Montserrat, Jost, Podkova,
+and similar Google Fonts projects), plus game-style icon/glyph headers that may
+carry separate terms.
+
+Copyright notices (examples — verify against the exact font you embedded):
+
+- Montserrat: Copyright 2024 The Montserrat.Git Project Authors
+  (https://github.com/JulietaUla/Montserrat.git)
+- Other families: see their respective upstream projects.
+
+Full OFL 1.1 text: https://openfontlicense.org
+
+PERMISSION & CONDITIONS (summary; the linked OFL text is authoritative):
+1) Neither the Font Software nor any of its individual components, in Original
+   or Modified Versions, may be sold by itself.
+2) Fonts may be bundled/redistributed with software if each copy includes the
+   copyright notice and this license.
+3) Modified Versions may not use Reserved Font Names unless permitted.
+4) Author names may not be used to promote modified versions without permission.
+5) Font Software must be distributed under this license.
+
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Before public release: copy the complete OFL.txt from each font's upstream
+repository next to that font's .h embedding, if the upstream requires the full
+text at redistribution.

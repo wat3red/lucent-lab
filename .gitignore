@@ -1,0 +1,74 @@
+# Build — NDK
+payload/libs/
+payload/obj/
+libs/
+obj/
+*.so
+*.a
+*.o
+*.lo
+*.slo
+*.d
+*.gch
+*.pch
+
+# Build — MSVC / VS
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ilk
+*.pdb
+*.exp
+*.dll
+*.exe
+*.lib
+*.app
+*.out
+
+# Injectors / local-only tools (never commit binaries)
+payload/tools/NullInject_x86
+tools/bin/
+
+# Secrets
+**/auth_secrets.h
+**/secrets.h
+**/*_secrets.h
+!**/*_secrets.example.h
+
+# Local deploy extras
+payload/tools/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Obfuscation helpers (local)
+jni/obfuscate_strings.py
+payload/jni/obfuscate_strings.py
+client/LucentClient/obfuscate_strings.py
